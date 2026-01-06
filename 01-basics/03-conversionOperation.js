@@ -35,8 +35,12 @@ let valueInNumber = Number(score);
 console.log(typeof valueInNumber);
 console.log(valueInNumber);
 
+
 let LoggedIN = 1;
 console.log(typeof LoggedIN);
-
-let BooleanInNumber = Boolean(LoggedIN);
-console.log(BooleanInNumber);
+let BooleanIsLoggedIN = Boolean(LoggedIN);
+console.log(typeof BooleanIsLoggedIN);
+// 1 => true
+// 0 => false
+// "" => false
+// "Raghav" => true
