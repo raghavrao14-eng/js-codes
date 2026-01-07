@@ -5,9 +5,9 @@ let score = "33abc"
 in case if I use
 let score ="33abc"
 console.log(typeof score);
-let valueInNumber = Number(score);
-console.log(typeof valueInNumber);
-then the output will NaN i.e. console.log(typeof valueInNumber);
+let valueInNumber = Number(score);  
+console.log(typeof valueInNumber);  => number
+then the output will NaN i.e. console.log(valueInNumber);
 Nan stands for not a number because abc is not a number
 
 Case 2 if give the vlue of score as null
