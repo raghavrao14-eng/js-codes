@@ -1,6 +1,7 @@
 // ********* CONVERSION *********//
 
-let score = "33abc"
+//let score = "33abc"
+
 /*
 in case if I use
 let score ="33abc"
@@ -31,11 +32,12 @@ boolean
 number
 1
 */
-console.log(typeof score);
 
-let valueInNumber = Number(score);
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+//console.log(typeof score);
+
+//let valueInNumber = Number(score);
+//console.log(typeof valueInNumber);
+//console.log(valueInNumber);
 
 
 //let LoggedIN = 1;
@@ -46,3 +48,44 @@ console.log(valueInNumber);
 // 0 => false
 // "" => false
 // "Raghav" => true
+
+// ********* OPERATIONS *********//
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+/*
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3); => power
+console.log(2/3);
+console.log(2%3); => remainder
+*/
+
+let str1 = "hello"
+let str2 = " Raghav"
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);
+// console.log(1+2+"2"); // => if string is in last then add the first two number
+//  console.log(+true);
+//  console.log(+"");
+ 
+ let num1, num2, num3
+
+ num1 = num2 = num3 = 2 + 2
+
+ let gameCounter = 100;
+ ++gameCounter;
+ console.log(gameCounter);
+ 
+
+
+
+
+
+
