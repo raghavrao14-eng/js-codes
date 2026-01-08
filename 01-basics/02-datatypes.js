@@ -2,9 +2,9 @@
 // alert(3+3) // we are using nodejs, not browser so alert will not work
 let name = "Raghav";
 let age = 22;
-// number =>2 to power 53
-// bigint
-// string =>""
+// number => 2 to power 53
+// bigint => larger than 2 to power 53 i.e greater than number
+// string => ""
 // boolean => true/false
 // null => standalone value
 // undefined => value not assigned
@@ -13,6 +13,6 @@ let age = 22;
 
 console.log(typeof "Raghav");
 console.log(typeof age);
-console.log(typeof null);
-console.log(typeof undefined);
+console.log(typeof null); // object
+console.log(typeof undefined);// undefined
 

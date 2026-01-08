@@ -24,4 +24,27 @@ const myFunction = function(){
   
 }
 
+ // ******* MEMORY *******
+
+ // Stack(PRIMITIVE)=> callby value , Heap(NON-PRIMITIVE)=> callby reference
+
+ let myYoutube = "Raghav.com"
+
+ let anotherName = myYoutube
+ anotherName = "Chai"
+ console.log(myYoutube);
+ 
+ console.log(anotherName);
+
+ let userOne ={
+  email: "user@com",
+  upi: "upi@sbi",
+ }
+ 
+ let userTwo = userOne
+
+ userTwo.email = "Raghav@google.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
  
