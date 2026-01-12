@@ -2,11 +2,8 @@
 
 // 7 types : String, Number, Boolean, null, undefined, symbol
 
-// 
-
-
 const Id = Symbol('12')
-const UserId = Symbol('12')
+const UserId = Symbol('12') //='12' sirf description hai value nahi 
 console.log(Id === UserId);
 //  typeof Symbol => symbol
 // Reference type(Non-primitive)
@@ -33,7 +30,6 @@ const myFunction = function(){
  let anotherName = myYoutube
  anotherName = "Chai"
  console.log(myYoutube);
- 
  console.log(anotherName);
 
  let userOne ={
