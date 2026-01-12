@@ -5,7 +5,7 @@
 /*
 in case if I use
 let score ="33abc"
-console.log(typeof score);
+console.log(typeof score); => string
 let valueInNumber = Number(score);  
 console.log(typeof valueInNumber);  => number
 then the output will NaN i.e. console.log(valueInNumber);
@@ -34,7 +34,6 @@ number
 */
 
 //console.log(typeof score);
-
 //let valueInNumber = Number(score);
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
