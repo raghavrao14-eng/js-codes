@@ -8,6 +8,6 @@ console.log(null >= 0); // that's why null >= 0 true and null > 0 false
 // console.log(undefined == 0); => false
 // console.log(undefined > 0);  => false for both > , <
 
-// === strict check i.e it also check the datatype
+// === strict check=> it also check the datatype i.e datatype should be same
 console.log("2" === 2);
 
